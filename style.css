@@ -1,0 +1,47 @@
+table {
+    border: 1px solid #69c;
+    width: 50%;
+  }
+  th {
+    font-weight: bold;
+    color: #039;
+    border-bottom: 1px dashed #69c;
+    padding: 12px 17px;
+    background: #d8d8d8;
+  }
+  td {
+    color: #669;
+    padding: 7px 17px;
+    text-align: center;
+  }
+  tr:hover td {
+    background: #ccddff;
+  }
+  .row {
+    list-style: none;
+  }
+
+.photo {
+    position: relative;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: block;
+}
+
+a img {
+    display: none;
+    position: absolute;
+    top: 0;
+    border: 0;
+    left: 100%;
+}
+
+a:hover img {
+    display: block;
+}
